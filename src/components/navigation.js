@@ -91,13 +91,13 @@ class Navigation extends Component {
               <hr />
               <div className="p-2" >
                 <select className="form-select mb-2 form-select-dark" id="state" onChange={()=>{this.changeState()}}>
-                  <option value="all">--States--</option>
+                  <option value="all">All states</option>
                   {this.props.states.map((element,i) => {
                     return <option key={i} value={element}>{element}</option>;
                   })}
                 </select>
                 <select className="form-select mb-2 form-select-dark" id="city" onChange={()=>this.props.filter()}>
-                  <option value="all">--Cities--</option>
+                  <option value="all">All Cities</option>
                   {this.props.cities.map((element,i) => {
                     return <option key={i} value={element}>{element}</option>;
                   })}
