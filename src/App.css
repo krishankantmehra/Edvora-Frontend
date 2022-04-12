@@ -1,0 +1,121 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.window {
+  width: 1366px;
+  background-color: #232323;
+}
+.navbar {
+  height: 84px;
+  background: #101010;
+}
+#logo {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-left: 43px;
+}
+.userInfo {
+  padding-right: 43px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+#profilePic {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.navigation {
+  margin: auto 43px;
+  padding: 30px 0px;
+}
+.links {
+  color: #d0cbcb;
+  text-decoration: none;
+  padding: 0px 44px 0px 0px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.links:hover {
+  cursor: pointer;
+}
+
+.filter {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.filter:hover {
+  cursor: pointer;
+  color: white;
+}
+.card {
+  margin: 0px 43px 13px 43px;
+  width: 1280px;
+  height: 198px;
+  background: #171717;
+  border-radius: 10px;
+}
+.map_url {
+  height: 165px;
+  width: 296px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 44px;
+}
+
+.rideInfo {
+  margin-bottom: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #cfcfcf;
+}
+.values {
+  color: white;
+  font-weight: 500;
+}
+.place {
+  margin: auto 5px;
+  background-color: #101010;
+  padding: 0px 10px 0px 10px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+.dropdown-menu {
+  width: 228px;
+  color: #A5A5A5;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-size: 20px;
+}
+
+.form-select{
+  background-color:  #232323;
+  color: white;
+}
+.content{
+  min-height: 100vh;
+}
